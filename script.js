@@ -238,7 +238,9 @@ const gastronomy = [
         image: "assets/images/gastronomia_crucena.jpg", // our generated masterpiece showing majadito
         ingredients: ["Arroz", "Charque de res", "Plátano maduro frito", "Huevo frito", "Urucú (colorante natural)"],
         history: "El rey indiscutible de la mesa cruceña. Su origen viene de las épocas coloniales donde se 'majaba' (machacaba) la carne deshidratada con yuca o plátano. El majadito batido es meloso y húmedo, mientras que el seco es suelto e ideal para acompañar con un huevo de yema blanda y lonjas dulces de plátano frito.",
-        recommendation: "Perfecto si buscas un almuerzo típico y contundente que recargue energías."
+        recommendation: "Perfecto si buscas un almuerzo típico y contundente que recargue energías.",
+        searchTerms: ["majadito boliviano", "arroz con charque", "comida tipica santa cruz bolivia"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     {
         id: "keperi",
@@ -248,7 +250,9 @@ const gastronomy = [
         image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
         ingredients: ["Carne keperí (vacío)", "Limón criollo", "Pimienta", "Comino", "Yuca hervida"],
         history: "Corte de carne sumamente típico del oriente boliviano que se marina por horas en abundante jugo de limón, ajo y especias locales. Se hornea lentamente hasta que la carne queda extremadamente suave por dentro pero con una cubierta crujiente y dorada. Siempre se sirve acompañado de yuca cocida y arroz con queso.",
-        recommendation: "La mejor opción para los amantes de la carne de res bien sazonada y tierna."
+        recommendation: "La mejor opción para los amantes de la carne de res bien sazonada y tierna.",
+        searchTerms: ["keperi al horno", "carne al horno con limon", "carne asada boliviana"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     {
         id: "locro",
@@ -258,7 +262,9 @@ const gastronomy = [
         image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80",
         ingredients: ["Pollo o Gallina criolla", "Arroz", "Yuca", "Huevo hervido", "Chivé / Cebollita de verdeo"],
         history: "Un caldo de arroz espeso y sumamente reconfortante, tradicionalmente cocinado a leña en ollas de fierro. Existen dos variantes muy queridas: el locro de gallina criolla (con presa entera) y el locro carretero (hecho con charque seco). Es el plato sanador por excelencia de los cruceños tras una noche de buri.",
-        recommendation: "Ideal si prefieres una sopa sustanciosa y reconfortante cocinada a fuego lento."
+        recommendation: "Ideal si prefieres una sopa sustanciosa y reconfortante cocinada a fuego lento.",
+        searchTerms: ["locro de gallina criolla", "caldo de pollo con arroz y yuca", "sopa boliviana"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     // MASITAS & DULCES
     {
@@ -269,7 +275,9 @@ const gastronomy = [
         image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=600&q=80",
         ingredients: ["Almidón de yuca", "Queso criollo maduro", "Huevo", "Leche"],
         history: "La masita tradicional más emblemática de Santa Cruz. Hecho a base de almidón y abundante queso criollo. Al hornearse, el queso se funde con el almidón logrando un panecillo crujiente por fuera y chicloso por dentro. La palabra proviene del idioma guaraní: 'cuña' (mujer) y 'pé' (pecho), por su peculiar forma redondeada.",
-        recommendation: "Imprescindible para acompañar el café caliente de la tarde, sobre todo en días lluviosos (surazos)."
+        recommendation: "Imprescindible para acompañar el café caliente de la tarde, sobre todo en días lluviosos (surazos).",
+        searchTerms: ["cunape", "pan de bono", "pan de queso almidon yuca"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     {
         id: "zonzo",
@@ -279,7 +287,9 @@ const gastronomy = [
         image: "https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?auto=format&fit=crop&w=600&q=80",
         ingredients: ["Yuca cocida", "Queso cruceño rallado", "Mantequilla", "Cocción a la brasa"],
         history: "Consiste en un puré homogéneo de yuca hervida y una generosa porción de queso cruceño. Esta mezcla se adhiere a una brocheta o rama de madera (el palo) y se cocina directamente sobre brasas de carbón girándolo pacientemente. El queso se derrite y el puré se dora, logrando una costra ahumada exquisita.",
-        recommendation: "Una opción interactiva y ahumada idónea para picar al aire libre."
+        recommendation: "Una opción interactiva y ahumada idónea para picar al aire libre.",
+        searchTerms: ["zonzo de yuca", "yuca con queso a las brasas", "snack de yuca boliviano"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     {
         id: "pan_de_arroz",
@@ -289,7 +299,9 @@ const gastronomy = [
         image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
         ingredients: ["Harina de arroz", "Puré de yuca", "Queso rallado", "Manteca de cerdo", "Hoja de plátano"],
         history: "Un panecillo tradicional horneado sobre hojas de plátano fresco. La harina de arroz y la yuca le dan una textura ligera y un sabor ligeramente dulzón que contrasta de manera espectacular con la sal del queso cruceño.",
-        recommendation: "Perfecto si buscas un sabor ligeramente diferente al queso puro, aromatizado por hojas tropicales."
+        recommendation: "Perfecto si buscas un sabor ligeramente diferente al queso puro, aromatizado por hojas tropicales.",
+        searchTerms: ["pan de arroz boliviano", "pan de arroz cruceño", "pan tipico de santa cruz"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     {
         id: "jalea",
@@ -299,7 +311,9 @@ const gastronomy = [
         image: "assets/images/gastronomia_crucena.jpg", // also displayed in our generated photo (clay pot)
         ingredients: ["Miel de caña de azúcar pura", "Cocción en paila de bronce"],
         history: "Dulce tradicional del oriente cruceño, con especial fama en Cotoca. Se prepara hirviendo el jugo fresco de caña de azúcar hasta obtener una consistencia espesa, untuosa y muy dulce. Se envasa y vende tradicionalmente en pequeñas tinajas o vasijas de barro crudo.",
-        recommendation: "Ideal si buscas un postre tradicional extremadamente dulce y natural para untar."
+        recommendation: "Ideal si buscas un postre tradicional extremadamente dulce y natural para untar.",
+        searchTerms: ["jalea de cotoca", "miel de cana dulce", "vasija de barro con miel"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     // BEBIDAS
     {
@@ -310,7 +324,9 @@ const gastronomy = [
         image: "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=600&q=80",
         ingredients: ["Maíz blanco blando", "Agua", "Azúcar al gusto"],
         history: "A diferencia de la chicha andina, la Chicha Camba no se fermenta. Se elabora moliendo y cociendo maíz blanco seleccionado hasta lograr una consistencia sedosa. Se sirve helada y es el bálsamo preferido para calmar el sofocante calor tropical del oriente boliviano.",
-        recommendation: "La mejor elección para saciar la sed con un dulzor suave y reconfortante."
+        recommendation: "La mejor elección para saciar la sed con un dulzor suave y reconfortante.",
+        searchTerms: ["chicha de maiz blanco", "chicha camba bolivia", "refresco de maiz dulce"],
+        fallbackTerm: "paisaje oriental boliviano"
     },
     {
         id: "somo",
@@ -320,7 +336,9 @@ const gastronomy = [
         image: "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=600&q=80",
         ingredients: ["Maíz frangollo (quebrado)", "Canela en rama", "Clavo de olor", "Harina de maíz"],
         history: "Una de las bebidas más tradicionales del oriente. Se prepara hirviendo granos de maíz frangollo con canela y clavo de olor, espesándolo luego con harina de maíz diluida. En Santa Cruz se comercializa en carritos tradicionales con campanas ruidosas, servido bien helado con los granos de maíz depositados en el fondo del vaso.",
-        recommendation: "Espectacular si quieres refrescarte y a la vez disfrutar de granos masticables de maíz especiados."
+        recommendation: "Espectacular si quieres refrescarte y a la vez disfrutar de granos masticables de maíz especiados.",
+        searchTerms: ["somo bebida boliviana", "refresco de maiz dulce", "chicha de maiz blanco"],
+        fallbackTerm: "paisaje oriental boliviano"
     }
 ];
 
@@ -535,6 +553,87 @@ const myths = [
 ];
 
 
+// 1.8. DYNAMIC IMAGE RESOLUTION SYSTEM WITH CACHE & FALLBACKS
+async function getDynamicImage(keywords, fallbackKeyword) {
+    const queryList = Array.isArray(keywords) ? keywords : [keywords];
+    
+    // Step 1: Query Wikimedia Commons (highly accurate for local cultural items/places)
+    for (const term of queryList) {
+        try {
+            const url = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(term)}&gsrnamespace=6&prop=imageinfo&iiprop=url&format=json&origin=*`;
+            const response = await fetch(url);
+            if (response.ok) {
+                const data = await response.json();
+                if (data.query && data.query.pages) {
+                    const pages = Object.values(data.query.pages);
+                    const validPages = pages.filter(p => p.imageinfo && p.imageinfo[0] && p.imageinfo[0].url && 
+                        (p.imageinfo[0].url.toLowerCase().endsWith('.jpg') || 
+                         p.imageinfo[0].url.toLowerCase().endsWith('.jpeg') || 
+                         p.imageinfo[0].url.toLowerCase().endsWith('.png')));
+                    if (validPages.length > 0) {
+                        return validPages[0].imageinfo[0].url;
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn(`Wikimedia Commons search failed for: ${term}`, e);
+        }
+    }
+
+    // Step 2: Query LoremFlickr (general keywords redirect)
+    for (const term of queryList) {
+        try {
+            const url = `https://loremflickr.com/600/400/${encodeURIComponent(term)}`;
+            const response = await fetch(url);
+            if (response.ok && !response.url.includes('defaultImage')) {
+                return response.url;
+            }
+        } catch (e) {
+            console.warn(`LoremFlickr failed for: ${term}`, e);
+        }
+    }
+
+    // Step 3: Ultimate Fallback based on section content
+    try {
+        const url = `https://loremflickr.com/600/400/${encodeURIComponent(fallbackKeyword)}`;
+        const response = await fetch(url);
+        if (response.ok && !response.url.includes('defaultImage')) {
+            return response.url;
+        }
+    } catch (e) {
+        console.error("Ultimate fallback failed", e);
+    }
+
+    // Step 4: Local static fallback if offline or all fail
+    const hardcodedBackups = {
+        places: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
+        gastronomy: "assets/images/gastronomia_crucena.jpg"
+    };
+    return fallbackKeyword.toLowerCase().includes('comida') || fallbackKeyword.toLowerCase().includes('oriental') 
+        ? hardcodedBackups.gastronomy 
+        : hardcodedBackups.places;
+}
+
+async function getCachedImage(cacheKey, keywords, fallbackKeyword) {
+    const cached = localStorage.getItem(`img_${cacheKey}`);
+    if (cached) return cached;
+    
+    const resolvedUrl = await getDynamicImage(keywords, fallbackKeyword);
+    localStorage.setItem(`img_${cacheKey}`, resolvedUrl);
+    return resolvedUrl;
+}
+
+function prewarmImageCache() {
+    destinations.forEach(dest => {
+        const searchTerms = [ `${dest.name} Santa Cruz Bolivia` ];
+        getCachedImage(`dest_${dest.id}`, searchTerms, "selva tropical Santa Cruz Bolivia");
+    });
+    gastronomy.forEach(food => {
+        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm);
+    });
+}
+
+
 // 2. LEAFLET MAP INITIALIZATION & LOGIC
 
 let map;
@@ -667,12 +766,27 @@ function selectDestination(dest, markerInstance = null) {
     const content = document.getElementById('sidebar-content');
     content.classList.remove('hidden');
 
-    document.getElementById('dest-image').src = dest.image;
-    document.getElementById('dest-image').alt = dest.name;
+    // Display a loader or default static image first
+    const imgEl = document.getElementById('dest-image');
+    imgEl.src = dest.resolvedImage || dest.image || 'assets/images/tajibo_amarillo.jpg';
+    imgEl.alt = dest.name;
+
     document.getElementById('dest-name').textContent = dest.name;
     document.getElementById('dest-coords').textContent = `Lat: ${dest.coords[0].toFixed(4)}, Lng: ${dest.coords[1].toFixed(4)}`;
     document.getElementById('dest-description').textContent = dest.description;
     document.getElementById('dest-how-to').textContent = dest.howTo;
+
+    // Load dynamic image using strictly Spanish search term (adding "Santa Cruz Bolivia")
+    const searchTerms = [ `${dest.name} Santa Cruz Bolivia` ];
+    const fallbackTerm = "selva tropical Santa Cruz Bolivia";
+    
+    getCachedImage(`dest_${dest.id}`, searchTerms, fallbackTerm)
+        .then(resolvedUrl => {
+            if (document.getElementById('dest-name').textContent === dest.name) {
+                imgEl.src = resolvedUrl;
+                dest.resolvedImage = resolvedUrl;
+            }
+        });
 
     // Badge styling and content
     const badge = document.getElementById('dest-route-badge');
@@ -742,9 +856,12 @@ function renderGastronomy(filter = 'all') {
             return `<span class="ing-icon" data-tooltip="${ing}">${emoji}</span>`;
         }).join('');
 
+        // Use resolved image or original local image as initial fallback
+        const initialImg = food.resolvedImage || food.image || 'assets/images/gastronomia_crucena.jpg';
+
         card.innerHTML = `
             <div class="food-img-container">
-                <img src="${food.image}" alt="${food.name}">
+                <img src="${initialImg}" alt="${food.name}" id="food-img-${food.id}">
                 <span class="food-badge">${food.category}</span>
             </div>
             <div class="food-body">
@@ -762,6 +879,16 @@ function renderGastronomy(filter = 'all') {
         // Click handler to open recipe modal
         card.addEventListener('click', () => openFoodModal(food));
         grid.appendChild(card);
+
+        // Fetch dynamic image in background
+        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm)
+            .then(resolvedUrl => {
+                const imgEl = document.getElementById(`food-img-${food.id}`);
+                if (imgEl) {
+                    imgEl.src = resolvedUrl;
+                }
+                food.resolvedImage = resolvedUrl;
+            });
     });
 }
 
@@ -912,7 +1039,8 @@ function closeModal() {
 
 function openFoodModal(food) {
     const banner = document.getElementById('modal-banner-img');
-    banner.style.backgroundImage = `url('${food.image}')`;
+    const displayImg = food.resolvedImage || food.image || 'assets/images/gastronomia_crucena.jpg';
+    banner.style.backgroundImage = `url('${displayImg}')`;
     
     document.getElementById('modal-pretitle').textContent = "Gastronomía Cruceña";
     document.getElementById('modal-title-text').textContent = food.name;
@@ -1129,6 +1257,9 @@ document.addEventListener('DOMContentLoaded', () => {
     initCarousel();
     renderPopularList();
     setupGlobalSearch();
+
+    // 3. Prewarm the dynamic image cache in the background
+    prewarmImageCache();
 
     // 3. Header Scroll Styling
     window.addEventListener('scroll', () => {
