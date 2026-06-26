@@ -11,7 +11,8 @@ const destinations = [
         coords: [-17.7834, -63.1821],
         image: "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=600&q=80",
         description: "El corazón palpitante de Santa Cruz de la Sierra. Rodeada por la majestuosa Catedral Basílica de San Lorenzo, el Club Social y antiguos edificios coloniales. Aquí los cruceños se reúnen bajo las palmeras a conversar y observar a los perezosos que habitan sus árboles.",
-        howTo: "Ubicada en el centro exacto de la ciudad (Primer Anillo). Accesible mediante cualquier línea de micro que vaya al centro."
+        howTo: "Ubicada en el centro exacto de la ciudad (Primer Anillo). Accesible mediante cualquier línea de micro que vaya al centro.",
+        searchTerms: ["plaza 24 de septiembre santa cruz bolivia", "catedral de santa cruz de la sierra", "centro de santa cruz bolivia"]
     },
     {
         id: 2,
@@ -20,7 +21,8 @@ const destinations = [
         coords: [-17.7675, -63.2428],
         image: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=600&q=80",
         description: "Un paraíso natural de 24 hectáreas. Cuenta con el mariposario más grande del mundo, un aviario imponente, lagunas naturales para paseos en kayak, senderos ecológicos y espectaculares piscinas rodeadas de exuberante vegetación tropical.",
-        howTo: "Ubicado en el municipio de Colpa Bélgica, camino a Porongo. Se llega cruzando el puente Urubó, a unos 15 minutos en taxi desde la ciudad."
+        howTo: "Ubicado en el municipio de Colpa Bélgica, camino a Porongo. Se llega cruzando el puente Urubó, a unos 15 minutos en taxi desde la ciudad.",
+        searchTerms: ["biocentro guembe", "guembe mariposario", "guembe santa cruz bolivia"]
     },
     {
         id: 3,
@@ -29,7 +31,8 @@ const destinations = [
         coords: [-17.9254, -63.1818],
         image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
         description: "Un área protegida que alberga dunas de arena blanca que alcanzan hasta 12 metros de altura, rodeadas de bosques tropicales y lagunas estacionales. Es un escenario ideal para practicar sandboard, senderismo y avistamiento de más de 250 especies de aves.",
-        howTo: "Ubicado a 12 km al sur de la ciudad. Se ingresa por el Palmar del Oratorio (Av. Santos Dumont). Se recomienda un vehículo de doble tracción (4x4)."
+        howTo: "Ubicado a 12 km al sur de la ciudad. Se ingresa por el Palmar del Oratorio (Av. Santos Dumont). Se recomienda un vehículo de doble tracción (4x4).",
+        searchTerms: ["lomas de arena santa cruz", "lomas de arena bolivia", "dunas de arena santa cruz"]
     },
     {
         id: 4,
@@ -38,7 +41,8 @@ const destinations = [
         coords: [-17.7772, -63.0722],
         image: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&q=80",
         description: "Un reservorio de biodiversidad con más de 186 hectáreas destinadas a la conservación del bosque chiquitano y chaqueño. Destaca su mirador elevado de madera, un orquideario deslumbrante, una laguna con plantas acuáticas gigantes (Victoria Regia) y senderos llenos de vida silvestre.",
-        howTo: "Ubicado en el km 8 de la Carretera al Cotoca. Se puede llegar en micros locales (líneas a Cotoca) desde la terminal de buses."
+        howTo: "Ubicado en el km 8 de la Carretera al Cotoca. Se puede llegar en micros locales (líneas a Cotoca) desde la terminal de buses.",
+        searchTerms: ["jardin botanico santa cruz", "jardin botanico bolivia", "botanico santa cruz"]
     },
     {
         id: 5,
@@ -47,7 +51,8 @@ const destinations = [
         coords: [-17.7745, -63.2201],
         image: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=600&q=80",
         description: "El lugar tradicional por excelencia para degustar las famosas masitas típicas cruceñas (cuñapé, zonzo, pan de arroz) junto a un buen café, mientras se contempla el histórico Río Piraí. Es un punto de encuentro clásico de domingos familiares.",
-        howTo: "Al final de la Avenida Roca y Coronado (Oeste de la ciudad). Accesible en micros de la línea 29 y taxis."
+        howTo: "Al final de la Avenida Roca y Coronado (Oeste de la ciudad). Accesible en micros de la línea 29 y taxis.",
+        searchTerms: ["cabanas rio pirai", "rio pirai santa cruz", "cabanas rio pirai bolivia"]
     },
     {
         id: 6,
@@ -56,7 +61,8 @@ const destinations = [
         coords: [-17.7735, -63.2185],
         image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
         description: "Punto de acceso inmediato a las playas de arena del río Piraí y zona de paseo en cuadratrack o cabalgatas. Aquí se estacionan los visitantes que buscan refrescarse en las aguas del río durante los calurosos días de verano.",
-        howTo: "Adyacente a las Cabañas del Río Piraí. Cuenta con áreas amplias bajo los árboles para estacionamiento."
+        howTo: "Adyacente a las Cabañas del Río Piraí. Cuenta con áreas amplias bajo los árboles para estacionamiento.",
+        searchTerms: ["rio pirai santa cruz", "rio pirai bolivia", "cabanas rio pirai"]
     },
     {
         id: 7,
@@ -65,7 +71,8 @@ const destinations = [
         coords: [-17.7981, -63.2922],
         image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=600&q=80",
         description: "Un pintoresco pueblo colonial que conserva su tranquilidad original, calles de tierra y una hermosa iglesia jesuita del siglo XVIII. Famoso por sus plantaciones de mandarinas y sus festividades tradicionales como el San Juan, donde la gente cruza brasas descalza.",
-        howTo: "Ubicado al oeste del Río Piraí. Cruzando el puente Urubó, a 20 km de Santa Cruz de la Sierra por una carretera asfaltada."
+        howTo: "Ubicado al oeste del Río Piraí. Cruzando el puente Urubó, a 20 km de Santa Cruz de la Sierra por una carretera asfaltada.",
+        searchTerms: ["porongo santa cruz bolivia", "porongo bolivia", "pueblo de porongo"]
     },
     {
         id: 8,
@@ -74,9 +81,9 @@ const destinations = [
         coords: [-17.8183, -63.3082],
         image: "https://images.unsplash.com/photo-1582650625119-3a31f8fa2699?auto=format&fit=crop&w=600&q=80",
         description: "Un moderno club de campo y parque acuático rodeado de un entorno natural idílico. Cuenta con lagunas artificiales, toboganes de agua gigantes, piscinas recreativas y canchas deportivas pensadas para el relax y la diversión familiar.",
-        howTo: "Camino a Porongo, a unos 25 minutos del centro de la ciudad de Santa Cruz."
+        howTo: "Camino a Porongo, a unos 25 minutos del centro de la ciudad de Santa Cruz.",
+        searchTerms: ["kalomai park", "kalomai porongo", "kalomai santa cruz"]
     },
-
     // RUTA 2: Valles & Norte
     {
         id: 9,
@@ -85,7 +92,8 @@ const destinations = [
         coords: [-17.9892, -63.3725],
         image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
         description: "Un punto de observación privilegiado situado en las colinas altas de El Torno. Ofrece una vista panorámica espectacular del lecho del río Piraí serpentando entre los primeros valles precordilleranos.",
-        howTo: "Subiendo por senderos vecinales desde la plaza principal de El Torno. Se recomienda caminar o ir en vehículo todo terreno."
+        howTo: "Subiendo por senderos vecinales desde la plaza principal de El Torno. Se recomienda caminar o ir en vehículo todo terreno.",
+        searchTerms: ["el torno santa cruz", "mirador el torno", "el torno bolivia"]
     },
     {
         id: 10,
@@ -94,7 +102,8 @@ const destinations = [
         coords: [-17.9942, -63.3765],
         image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80",
         description: "Ubicado a mayor altitud, este mirador permite divisar el contraste geográfico entre las llanuras tropicales de Santa Cruz y el comienzo de la cordillera de los Andes bolivianos.",
-        howTo: "Aproximadamente a 2 km del Mirador 1. Senderismo guiado altamente aconsejado."
+        howTo: "Aproximadamente a 2 km del Mirador 1. Senderismo guiado altamente aconsejado.",
+        searchTerms: ["el torno santa cruz", "serrania el torno", "valles del torno"]
     },
     {
         id: 11,
@@ -103,7 +112,8 @@ const destinations = [
         coords: [-17.9906, -63.3817],
         image: "https://images.unsplash.com/photo-1595853035070-59a39fe84de3?auto=format&fit=crop&w=600&q=80",
         description: "Conocido como la capital citrícola de Santa Cruz. Es un municipio rodeado de serranías, arroyos y cascadas. Es un centro productor clave y el portal de entrada a los valles cruceños.",
-        howTo: "Ubicado a 32 km al suroeste de Santa Cruz de la Sierra sobre la antigua carretera a Cochabamba."
+        howTo: "Ubicado a 32 km al suroeste de Santa Cruz de la Sierra sobre la antigua carretera a Cochabamba.",
+        searchTerms: ["el torno santa cruz", "municipio el torno", "el torno bolivia"]
     },
     {
         id: 12,
@@ -112,7 +122,8 @@ const destinations = [
         coords: [-18.1792, -63.8188],
         image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80",
         description: "Monumento arqueológico Patrimonio de la Humanidad por la UNESCO. Se trata de una inmensa roca esculpida con figuras geométricas y canales ceremoniales por culturas prehispánicas (chanés e incas). Es considerada la piedra tallada más grande del planeta.",
-        howTo: "Ubicado a 9 km del pueblo de Samaipata (a su vez a 120 km de Santa Cruz). Se llega en transporte público interprovincial hasta el pueblo y luego en taxi local."
+        howTo: "Ubicado a 9 km del pueblo de Samaipata (a su vez a 120 km de Santa Cruz). Se llega en transporte público interprovincial hasta el pueblo y luego en taxi local.",
+        searchTerms: ["fuerte de samaipata", "el fuerte samaipata", "samaipata ruinas"]
     },
     {
         id: 13,
@@ -121,7 +132,8 @@ const destinations = [
         coords: [-17.7500, -63.8333],
         image: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=600&q=80",
         description: "Una de las reservas con mayor biodiversidad del mundo. Confluyen aquí cuatro ecosistemas: Amazonía, Chaco, Andes y Bosque Seco Chiquitano. Destacan sus senderos de helechos gigantes prehistóricos y sus imponentes cañones de roca roja.",
-        howTo: "Accesible tanto por el norte (Buena Vista) como por el sur (Samaipata/Mairana). Es obligatorio ingresar con un guía certificado."
+        howTo: "Accesible tanto por el norte (Buena Vista) como por el sur (Samaipata/Mairana). Es obligatorio ingresar con un guía certificado.",
+        searchTerms: ["parque nacional amboro", "amboro bolivia", "helechos gigantes amboro"]
     },
     {
         id: 14,
@@ -130,9 +142,9 @@ const destinations = [
         coords: [-17.4589, -63.6592],
         image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80",
         description: "Una imponente caída de agua oculta dentro de un cañón de exuberante vegetación, ubicada cerca del pintoresco pueblo de Buena Vista. Ideal para quienes buscan combinar senderismo de aventura y un baño en aguas cristalinas.",
-        howTo: "Desde Buena Vista, se viaja por camino vecinal hacia la comunidad de San Luis. Luego se realiza una caminata a pie de 40 minutos por el río."
+        howTo: "Desde Buena Vista, se viaja por camino vecinal hacia la comunidad de San Luis. Luego se realiza una caminata a pie de 40 minutos por el río.",
+        searchTerms: ["buena vista santa cruz", "chorro de san luis buena vista", "cascada san luis buena vista"]
     },
-
     // RUTA 3: Balnearios & Cascadas
     {
         id: 15,
@@ -141,7 +153,8 @@ const destinations = [
         coords: [-17.8967, -63.4350],
         image: "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?auto=format&fit=crop&w=600&q=80",
         description: "Un conjunto de espectaculares saltos de agua y pozas de piedra esculpidas de forma natural. Sus aguas cristalinas y templadas reflejan el cielo como espejos, de ahí su poético nombre. Está rodeado por una densa selva tropical.",
-        howTo: "Se encuentra a 40 km al oeste de la ciudad. Se cruza por San José de las Bandurrias. Requiere vehículo con buena altura."
+        howTo: "Se encuentra a 40 km al oeste de la ciudad. Se cruza por San José de las Bandurrias. Requiere vehículo con buena altura.",
+        searchTerms: ["espejillos santa cruz", "rio espejillos", "cascadas espejillos bolivia"]
     },
     {
         id: 16,
@@ -150,7 +163,8 @@ const destinations = [
         coords: [-18.1833, -63.7167],
         image: "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=600&q=80",
         description: "Un balneario natural compuesto por tres cascadas sucesivas que desembocan en amplias piscinas naturales con playas de fina arena blanca. Es uno de los destinos más relajantes y fotografiados del trayecto a Samaipata.",
-        howTo: "Ubicado a orillas de la antigua carretera a Cochabamba, en el km 100. El ingreso está señalizado y la caminata desde la entrada es de apenas 10 minutos."
+        howTo: "Ubicado a orillas de la antigua carretera a Cochabamba, en el km 100. El ingreso está señalizado y la caminata desde la entrada es de apenas 10 minutos.",
+        searchTerms: ["cuevas samaipata", "cascadas de cuevas samaipata", "cuevas santa cruz bolivia"]
     },
     {
         id: 17,
@@ -159,7 +173,8 @@ const destinations = [
         coords: [-18.1810, -63.7145],
         image: "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=600&q=80",
         description: "La más recóndita y alta de las cataratas del complejo de Cuevas. Se accede mediante un sendero ecológico que cruza puentes rústicos de madera. Su caída de agua genera una brisa refrescante ideal para descansar del calor.",
-        howTo: "Dentro del complejo turístico Cuevas. Sigue los senderos internos debidamente rotulados hacia el sector alto."
+        howTo: "Dentro del complejo turístico Cuevas. Sigue los senderos internos debidamente rotulados hacia el sector alto.",
+        searchTerms: ["cuevas samaipata", "tercera catarata cuevas", "cascadas de cuevas"]
     },
     {
         id: 18,
@@ -168,7 +183,8 @@ const destinations = [
         coords: [-18.4419, -59.7214],
         image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80",
         description: "El río de aguas termales más largo de Sudamérica. Con una extensión de 5 km de aguas templadas (entre 29°C y 35°C) que brotan de un lecho de arena fina. Sus aguas son ricas en minerales y tienen reconocidas propiedades medicinales y relajantes.",
-        howTo: "Ubicado a 32 km al este de Roboré, sobre la carretera Bioceánica. Se puede llegar en taxi desde Roboré."
+        howTo: "Ubicado a 32 km al este de Roboré, sobre la carretera Bioceánica. Se puede llegar en taxi desde Roboré.",
+        searchTerms: ["aguas calientes robore", "aguas calientes santa cruz bolivia", "rio aguas calientes robore"]
     },
     {
         id: 19,
@@ -177,9 +193,9 @@ const destinations = [
         coords: [-18.3267, -59.7578],
         image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=600&q=80",
         description: "Una refrescante caída de agua natural de 5 metros que forma una gran piscina de piedra en medio de enormes formaciones rocosas. Un remanso de paz perfecto para refrescarse en el corazón de Roboré.",
-        howTo: "Ubicado a solo 4 km del centro urbano de Roboré. Se puede acceder a pie o en mototaxi local."
+        howTo: "Ubicado a solo 4 km del centro urbano de Roboré. Se puede acceder a pie o en mototaxi local.",
+        searchTerms: ["el chorro robore", "chorro de robore", "balneario el chorro robore"]
     },
-
     // RUTA 4: Chiquitania & Chaco
     {
         id: 20,
@@ -188,7 +204,8 @@ const destinations = [
         coords: [-18.1333, -60.0167],
         image: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80",
         description: "Un místico pueblo chiquitano dominado por la 'Torre de Chochís' (un colosal monolito de roca roja). Alberga el Santuario Mariano de la Torre, una joya arquitectónica tallada en maderas nativas por artesanos locales, rodeada de un paisaje sobrecogedor.",
-        howTo: "Ubicado sobre la vía del tren y carretera Bioceánica, a 360 km de Santa Cruz de la Sierra y 80 km de San José de Chiquitos."
+        howTo: "Ubicado sobre la vía del tren y carretera Bioceánica, a 360 km de Santa Cruz de la Sierra y 80 km de San José de Chiquitos.",
+        searchTerms: ["chochis santa cruz", "santuario de chochis", "torre de chochis"]
     },
     {
         id: 21,
@@ -197,7 +214,8 @@ const destinations = [
         coords: [-17.8464, -60.7419],
         image: "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?auto=format&fit=crop&w=600&q=80",
         description: "Una de las misiones jesuíticas históricas más importantes del oriente. Su majestuoso templo de piedra y adobe, construido a mediados del siglo XVIII, es el único sobreviviente edificado en piedra de toda la Chiquitania.",
-        howTo: "Ubicado a 266 km de Santa Cruz. Se llega fácilmente por carretera asfaltada (Ruta Bioceánica) o a través del servicio ferroviario."
+        howTo: "Ubicado a 266 km de Santa Cruz. Se llega fácilmente por carretera asfaltada (Ruta Bioceánica) o a través del servicio ferroviario.",
+        searchTerms: ["san jose de chiquitos", "san jose de chiquitos templo", "misiones de chiquitos"]
     },
     {
         id: 22,
@@ -206,7 +224,8 @@ const destinations = [
         coords: [-18.3392, -59.6014],
         image: "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=600&q=80",
         description: "Ubicado en la Serranía de Santiago, este destino goza de un microclima templado muy agradable. Es famoso por los miradores del Valle de Tucabaca, cuevas prehistóricas con pinturas rupestres y extrañas y colosales formaciones rocosas conocidas como 'Los Vigilantes'.",
-        howTo: "Situado a 22 km al norte de Roboré por una carretera de ripio estable."
+        howTo: "Situado a 22 km al norte de Roboré por una carretera de ripio estable.",
+        searchTerms: ["santiago de chiquitos", "valle de tucabaca", "santiago de chiquitos mirador"]
     },
     {
         id: 23,
@@ -215,7 +234,8 @@ const destinations = [
         coords: [-18.1633, -59.8333],
         image: "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=600&q=80",
         description: "Una majestuosa cascada con una caída libre de más de 45 metros de altura. Está rodeada de cañones de piedra y una selva húmeda que contrasta fuertemente con la aridez de la meseta chiquitana.",
-        howTo: "Ubicado en las proximidades de Santiago de Chiquitos. Requiere vehículo 4x4 y una caminata de intensidad media."
+        howTo: "Ubicado en las proximidades de Santiago de Chiquitos. Requiere vehículo 4x4 y una caminata de intensidad media.",
+        searchTerms: ["chorro de la concepcion", "concepcion santiago de chiquitos", "cascada concepcion robore"]
     },
     {
         id: 24,
@@ -224,7 +244,10 @@ const destinations = [
         coords: [-14.2667, -60.8333],
         image: "https://images.unsplash.com/photo-1433832597046-4f10e10ac764?auto=format&fit=crop&w=600&q=80",
         description: "Una de las maravillas naturales más vírgenes y majestuosas del mundo, declarada Patrimonio Natural por la UNESCO. Su geografía incluye la imponente Meseta de Caparuch y espectaculares cataratas vírgenes como Arco Iris (88m de caída) y Ahlfeld.",
-        howTo: "Destino remoto al noreste de Santa Cruz, frontera con Brasil. Se llega principalmente mediante avioneta charter desde Santa Cruz o por vía terrestre/fluvial en expediciones de varios días."
+        howTo: "Destino remoto al noreste de Santa Cruz, frontera con Brasil. Se llega principalmente mediante avioneta charter desde Santa Cruz o por vía terrestre/fluvial en expediciones de varios días.",
+        searchTerms: ["parque nacional noel kempff", "catarata arco iris noel kempff", "noel kempff mercado bolivia"]
+    }
+];n Brasil. Se llega principalmente mediante avioneta charter desde Santa Cruz o por vía terrestre/fluvial en expediciones de varios días."
     }
 ];
 
@@ -365,136 +388,151 @@ const provinceDetails = {
         history: "Es la provincia metropolitana. Alberga la capital del departamento. Fue el centro de la colonización española en las tierras bajas. Su historia se entrelaza con las luchas por la descentralización y el auge agroindustrial moderno. Su nombre rinde homenaje al líder federalista Andrés Ibáñez.",
         culture: "Crisol de culturas de toda Bolivia debido a la migración. Conserva el centro histórico circular y festividades urbanas de gran escala como el Carnaval Cruceño.",
         gallery: [
-            "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/1/12/Camino_a_Samaipata_Santa_Cruz_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/d6/Majadito.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/fc/Iglesia_de_Cotoca_Santa_Cruz_Bolivia.jpg"
+        ],
+        searchTerms: ["provincia Andres Ibanez", "Santa Cruz de la Sierra plaza", "catedral santa cruz bolivia"]
     },
     2: {
         history: "Nombrada en honor del coronel Ignacio Warnes, héroe patrio. Se constituyó históricamente como un paso obligado de caravanas comerciales y hoy es el epicentro del Parque Industrial Latinoamericano y el centro de la industria del cemento y lácteos.",
         culture: "Tradición ganadera combinada con pujanza industrial. Célebre por sus festivales de la leche y comidas típicas derivadas del queso.",
         gallery: [
-            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1595853035070-59a39fe84de3?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/e/e0/Aeropuerto_Internacional_Viru_Viru.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/d3/Warnes_Bolivia_plaza.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/a0/Keper%C3%AD.jpg"
+        ],
+        searchTerms: ["provincia Warnes", "Warnes Santa Cruz Bolivia", "viru viru santa cruz"]
     },
     3: {
         history: "Una de las provincias con mayor territorio. Fue fundada como parte de las reducciones jesuíticas chiquitanas en 1748. Destaca por poseer templos misionales barrocos de madera perfectamente conservados que son joyas arquitectónicas del siglo XVIII.",
         culture: "Música barroca renacentista que se toca en violines fabricados a mano, tallados en maderas locales. Fiestas patronales ricas en sincretismo indígena-religioso.",
         gallery: [
-            "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/1/14/Iglesia_de_San_Ignacio_de_Velasco.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/22/San_Ignacio_de_Velasco_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/ad/Templo_de_San_Miguel_de_Velasco.jpg"
+        ],
+        searchTerms: ["provincia Velasco", "San Ignacio de Velasco misiones", "San Miguel de Velasco templo"]
     },
     4: {
         history: "Zona regada por el río Ichilo. Su historia colonial se centra en Buena Vista, fundada como misión jesuita. A lo largo del siglo XX se consolidó como una rica región agroforestal y la puerta de acceso norte al indómito Parque Amboró.",
         culture: "Elaboración de artesanías tejidas en fibras de jipijapa (sombreros, cestos), cultivo artesanal de cacao nativo y café premium con aroma de montaña.",
         gallery: [
-            "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/0/07/Buena_Vista_Santa_Cruz_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/12/Parque_Nacional_Amboro.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/dd/Rio_Ichilo.jpg"
+        ],
+        searchTerms: ["provincia Ichilo", "Buena Vista Santa Cruz Bolivia", "parque nacional amboro"]
     },
     5: {
         history: "Aquí se fundó originalmente la ciudad de Santa Cruz de la Sierra en 1561. San José de Chiquitos posee el único templo de piedra y cal de las Misiones Jesuíticas. La provincia conserva importantes yacimientos arqueológicos históricos.",
-        culture: "Fuerte arraigo chiquitano y barroco. Sede de festivales internacionales de música antigua y danzas de los 'Abuelos Chiquitanos' portando máscaras tradicionales.",
+        culture: "Fuerte arraigo chiquitano y barroco. Sede de festivales internacionales de música antigua y danzas de los 'Abuelos Chiquitanos' portando masks tradicionales.",
         gallery: [
-            "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/5/5a/Iglesia_de_San_Jose_de_Chiquitos_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/5/52/Santuario_Choch%C3%ADs.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/ad/Valle_de_Tucabaca_Santiago_de_Chiquitos.jpg"
+        ],
+        searchTerms: ["provincia Chiquitos", "San Jose de Chiquitos misiones", "santuario de chochis"]
     },
     6: {
         history: "Provincia de origen agrario, muy próspera. Fundada por su cercanía al río Guapay. Su capital Portachuelo destaca por conservar casonas señoriales con amplios corredores sostenidos por pilares de madera.",
         culture: "La cuna del mejor pan de arroz y cuñapé de Santa Cruz. Sus habitantes se ufanan de mantener vivo el hablar pausado y hospitalario del camba de antaño.",
         gallery: [
-            "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/c/cb/Portachuelo_Santa_Cruz_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/36/Pan_de_arroz%2C_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/27/Cu%C3%B1ap%C3%A9_en_mano.jpg"
+        ],
+        searchTerms: ["provincia Sara", "Portachuelo Santa Cruz Bolivia", "pan de arroz bolivia"]
     },
     7: {
         history: "La provincia más extensa del departamento. Histórico bastión del pueblo indígena Chiriguano-Guaraní, que resistió férreamente la conquista española. Cuenta con enormes reservas de gas natural y petróleo.",
         culture: "Identidad chaqueña y guaraní. Se celebra el Arete Guasu (fiesta grande de integración cultural) con máscaras talladas de madera de toborochi y música de flautas.",
         gallery: [
-            "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/d/da/Lagunillas_Cordillera_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/77/Chaco_Boliviano.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cueva_del_Chaco.jpg"
+        ],
+        searchTerms: ["provincia Cordillera", "Lagunillas Santa Cruz Bolivia", "chaco boliviano"]
     },
     8: {
         history: "Ubicada en los valles templados andinos de Santa Cruz. Vallegrande fue fundada en 1612 por españoles para servir de nexo con Potosí. Región de relieve montañoso, famosa mundialmente por la ruta del Che Guevara.",
         culture: "Fuerte herencia colonial española visible en su dialecto castellano arcaico, la copla vallegrandina, licores artesanales de frutas (rimpolio) y un carnaval tradicional único.",
         gallery: [
-            "https://images.unsplash.com/photo-1595853035070-59a39fe84de3?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1433832597046-4f10e10ac764?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/4/41/Vallegrande_Santa_Cruz_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/9f/Vallegrande_market_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/ff/Vallegrande_paisaje_rural.jpg"
+        ],
+        searchTerms: ["provincia Vallegrande", "Vallegrande Santa Cruz Bolivia", "Vallegrande plaza"]
     },
     9: {
         history: "Provincia montañosa fundada en la cuenca del río Mizque. Su capital Comarapa une geográficamente los valles cruceños secos con las zonas húmedas de los Yungas y los bosques nublados de Siberia.",
         culture: "Producción a gran escala de frutas (chirimoyas, frutillas) y miel de abejas. Tradiciones folclóricas serranas andino-cruceñas de sincretismo marcado.",
         gallery: [
-            "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/8/87/Comarapa_Santa_Cruz_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/4f/Laguna_Verde_Comarapa.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/5/5a/Caballero_valle_Santa_Cruz.jpg"
+        ],
+        searchTerms: ["provincia Caballero", "Comarapa Santa Cruz Bolivia", "Comarapa valle"]
     },
     10: {
         history: "Portal histórico hacia los valles altos. Samaipata (su capital) alberga vestigios preincas (los Chanés) y la fortaleza incaica más austral de Bolivia. Fue también una zona de haciendas coloniales importantes.",
         culture: "Destino cosmopolita donde conviven residentes de más de 30 nacionalidades. Ambiente artístico, místico y ecológico centrado en la preservación arqueológica y el senderismo.",
         gallery: [
-            "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/c/c5/El_Fuerte_de_Samaipata%2C_Santa_Cruz_-_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/c/cc/Samaipata_valle_Florida.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cuevas_Samaipata_catarata.jpg"
+        ],
+        searchTerms: ["provincia Florida", "Samaipata Florida Santa Cruz", "fuerte de samaipata"]
     },
     11: {
         history: "Corazón del 'Norte Integrado'. Su auge se debió a la colonización agrícola de mediados del siglo XX y a la construcción de los ingenios azucareros más grandes del país (Guabirá). Montero es hoy una metrópolis comercial de vertiginoso desarrollo.",
         culture: "Una activa cultura comercial pluriétnica. Celebración anual de ferias agroindustriales (ExpoNorte) de gran trascendencia nacional.",
         gallery: [
-            "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1595853035070-59a39fe84de3?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/8/82/Montero_Santa_Cruz_Bolivia_plaza.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/23/Montero_iglesia_parroquia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/df/Chicha_de_maiz.JPG"
+        ],
+        searchTerms: ["provincia Santistevan", "Montero Santa Cruz Bolivia", "Montero plaza"]
     },
     12: {
         history: "Llamada así en honor al fundador Ñuflo de Chaves. Concepción (su capital) es famosa por su bellísima catedral jesuita barroca enteramente restaurada en madera tallada, considerada el alma de las misiones chiquitanas.",
         culture: "Taller artesanal de costuras de chuspas, camisas y vestidos pintados a mano. Sede bienal del festival internacional de música barroca americana.",
         gallery: [
-            "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/e/e2/Catedral_de_Concepcion_Santa_Cruz_Bolivia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/84/Concepcion_Santa_Cruz_Bolivia_patio.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/6a/Nuflo_de_Chaves_relic.jpg"
+        ],
+        searchTerms: ["provincia Nuflo de Chaves", "Concepcion Chiquitos templo", "catedral de concepcion bolivia"]
     },
     13: {
         history: "Ubicada en el extremo nororiental del departamento, colindando con el Mato Grosso brasileño. Histórico puerto ganadero fundado a finales del siglo XIX durante el auge de la goma elástica.",
         culture: "Fuerte mezcla cultural fronteriza hispano-portuguesa. Hogar del Pantanal Boliviano y de tradiciones ganaderas que se celebran con rodeos y bailes típicos del tamboril.",
         gallery: [
-            "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/2/29/San_Matias_Santa_Cruz_Bolivia_pantanal.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/b2/Angel_Sandoval_pantanal_landscape.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/77/Carrito_de_som%C3%B3_en_El_Alto.jpg"
+        ],
+        searchTerms: ["provincia Angel Sandoval", "San Matias Santa Cruz Bolivia", "pantanal boliviano"]
     },
     14: {
         history: "Alberga el legendario yacimiento de hierro del Mutún, uno de los más grandes del mundo. Su capital Puerto Suárez se fundó en 1875 como puerto fluvial comercial que conecta a Bolivia directamente con el Océano Atlántico.",
         culture: "Identidad pantanera. Destacan las comidas a base de peces locales (como el surubí y pacú) y la práctica del ecoturismo en la laguna Cáceres.",
         gallery: [
-            "https://images.unsplash.com/photo-1582650625119-3a31f8fa2699?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1433832597046-4f10e10ac764?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/8/8f/Puerto_Suarez_Bolivia_Laguna_Caceres.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pantanal_Boliviano_German_Busch.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/0a/Rio_Paraguay_Puerto_Busch.jpg"
+        ],
+        searchTerms: ["provincia German Busch", "Puerto Suarez Laguna Caceres", "pantanal boliviano"]
     },
     15: {
         history: "Habitada ancestralmente por el pueblo indígena Guaraní-Guarayo. Nació como una misión franciscana en el siglo XIX, aislada geográficamente en medio de densos e impenetrables bosques tropicales húmedos del norte.",
         culture: "Famosa por sus luthiers nativos, quienes fabrican de forma artesanal violines barrocos de calidad acústica excepcional. También por la producción de aceite de coco y tejidos de sora.",
         gallery: [
-            "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=500&q=80",
-            "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=500&q=80"
-        ]
+            "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ascension_de_Guarayos_Santa_Cruz_Bolivia_iglesia.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/c/c5/Guarayos_folclore_violin.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/07/Guarayos_forest_Bolivia.jpg"
+        ],
+        searchTerms: ["provincia Guarayos", "Ascension de Guarayos", "guarayos violin"]
     }
 };
 
@@ -593,29 +631,33 @@ async function getDynamicImage(keywords, fallbackKeyword) {
         }
     }
 
-    // Step 3: Ultimate Fallback based on section content
-    try {
-        const url = `https://loremflickr.com/600/400/${encodeURIComponent(fallbackKeyword)}`;
-        const response = await fetch(url);
-        if (response.ok && !response.url.includes('defaultImage')) {
-            return response.url;
+    // Step 3: Ultimate Fallback based on section content (if provided)
+    if (fallbackKeyword) {
+        try {
+            const url = `https://loremflickr.com/600/400/${encodeURIComponent(fallbackKeyword)}`;
+            const response = await fetch(url);
+            if (response.ok && !response.url.includes('defaultImage')) {
+                return response.url;
+            }
+        } catch (e) {
+            console.error("Ultimate fallback failed", e);
         }
-    } catch (e) {
-        console.error("Ultimate fallback failed", e);
+
+        // Step 4: Local static fallback if offline or all fail
+        const hardcodedBackups = {
+            places: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
+            gastronomy: "assets/images/gastronomia_crucena.jpg"
+        };
+        return fallbackKeyword.toLowerCase().includes('comida') || fallbackKeyword.toLowerCase().includes('oriental') 
+            ? hardcodedBackups.gastronomy 
+            : hardcodedBackups.places;
     }
 
-    // Step 4: Local static fallback if offline or all fail
-    const hardcodedBackups = {
-        places: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
-        gastronomy: "assets/images/gastronomia_crucena.jpg"
-    };
-    return fallbackKeyword.toLowerCase().includes('comida') || fallbackKeyword.toLowerCase().includes('oriental') 
-        ? hardcodedBackups.gastronomy 
-        : hardcodedBackups.places;
+    return null;
 }
 
-async function getCachedImage(cacheKey, keywords, fallbackKeyword, defaultImage = null) {
-    const cacheKeyData = `img_${cacheKey}`;
+async function getCachedImage(cacheKey, keywords, fallbackKeyword, defaultImage = null, forceDynamic = false) {
+    const cacheKeyData = `img_v3_${cacheKey}`;
     const cachedData = localStorage.getItem(cacheKeyData);
     
     if (cachedData) {
@@ -629,10 +671,26 @@ async function getCachedImage(cacheKey, keywords, fallbackKeyword, defaultImage 
         }
     }
     
-    let resolvedUrl = defaultImage;
-    // If no defaultImage or it's a loremflickr URL/placeholder, dynamically resolve it
-    if (!resolvedUrl || resolvedUrl.includes('loremflickr.com') || resolvedUrl.includes('defaultImage') || resolvedUrl.includes('unsplash.com/photo-1547592180') || resolvedUrl.includes('unsplash.com/photo-1541658016709') || resolvedUrl.includes('unsplash.com/photo-1595981267035') || resolvedUrl.includes('unsplash.com/photo-1517433367423')) {
-        resolvedUrl = await getDynamicImage(keywords, fallbackKeyword);
+    let resolvedUrl = null;
+    if (forceDynamic) {
+        // Try solving using specific keywords
+        resolvedUrl = await getDynamicImage(keywords, null);
+        
+        // If specific keyword search fails, use defaultImage (if it's not a generic placeholder/loremflickr)
+        if (!resolvedUrl) {
+            if (defaultImage && !defaultImage.includes('loremflickr.com') && !defaultImage.includes('defaultImage') && !defaultImage.includes('tajibo_amarillo') && !defaultImage.includes('gastronomia_crucena')) {
+                resolvedUrl = defaultImage;
+            } else {
+                // If no defaultImage, fallback to category/section fallback image
+                resolvedUrl = await getDynamicImage(keywords, fallbackKeyword);
+            }
+        }
+    } else {
+        // Prioritize hand-curated default image
+        resolvedUrl = defaultImage;
+        if (!resolvedUrl || resolvedUrl.includes('loremflickr.com') || resolvedUrl.includes('defaultImage') || resolvedUrl.includes('unsplash.com/photo-1547592180') || resolvedUrl.includes('unsplash.com/photo-1541658016709') || resolvedUrl.includes('unsplash.com/photo-1595981267035') || resolvedUrl.includes('unsplash.com/photo-1517433367423')) {
+            resolvedUrl = await getDynamicImage(keywords, fallbackKeyword);
+        }
     }
     
     localStorage.setItem(cacheKeyData, JSON.stringify({
@@ -645,21 +703,25 @@ async function getCachedImage(cacheKey, keywords, fallbackKeyword, defaultImage 
 
 function prewarmImageCache() {
     destinations.forEach(dest => {
-        const searchTerms = [ `${dest.name} Santa Cruz Bolivia` ];
-        getCachedImage(`dest_${dest.id}`, searchTerms, "selva tropical Santa Cruz Bolivia", dest.image);
+        const searchTerms = dest.searchTerms || [ `${dest.name} Santa Cruz Bolivia` ];
+        getCachedImage(`dest_${dest.id}`, searchTerms, "selva tropical Santa Cruz Bolivia", dest.image, true);
     });
     gastronomy.forEach(food => {
-        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm, food.image);
+        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm, food.image, false);
     });
     provinces.forEach(prov => {
         const details = provinceDetails[prov.id];
-        const searchQueries = [
-            [`${prov.name} ${prov.capital} Santa Cruz Bolivia`, `${prov.name} Santa Cruz Bolivia`],
+        const searchQueries = details.searchTerms ? [
+            [details.searchTerms[0]],
+            [details.searchTerms[1]],
+            [details.searchTerms[2]]
+        ] : [
+            [`provincia ${prov.name} Santa Cruz Bolivia`, `provincia ${prov.name}`],
             [`${prov.capital} Santa Cruz Bolivia`, `${prov.name} Bolivia`],
-            [`${prov.name} Chiquitos Bolivia`, "selva tropical Santa Cruz Bolivia"]
+            ["selva tropical Santa Cruz Bolivia"]
         ];
         searchQueries.forEach((queries, idx) => {
-            getCachedImage(`prov_${prov.id}_${idx}`, queries, "selva tropical Santa Cruz Bolivia", details.gallery[idx]);
+            getCachedImage(`prov_${prov.id}_${idx}`, queries, "selva tropical Santa Cruz Bolivia", details.gallery[idx], true);
         });
     });
 }
@@ -807,11 +869,11 @@ function selectDestination(dest, markerInstance = null) {
     document.getElementById('dest-description').textContent = dest.description;
     document.getElementById('dest-how-to').textContent = dest.howTo;
 
-    // Load dynamic image using strictly Spanish search term (adding "Santa Cruz Bolivia")
-    const searchTerms = [ `${dest.name} Santa Cruz Bolivia` ];
+    // Load dynamic image using strictly Spanish search term
+    const searchTerms = dest.searchTerms || [ `${dest.name} Santa Cruz Bolivia` ];
     const fallbackTerm = "selva tropical Santa Cruz Bolivia";
     
-    getCachedImage(`dest_${dest.id}`, searchTerms, fallbackTerm, dest.image)
+    getCachedImage(`dest_${dest.id}`, searchTerms, fallbackTerm, dest.image, true)
         .then(resolvedUrl => {
             if (document.getElementById('dest-name').textContent === dest.name) {
                 imgEl.src = resolvedUrl;
@@ -1147,19 +1209,23 @@ function openProvinceModal(prov) {
     
     openModal();
 
-    // Resolve images dynamically in background using Spanish terms
+    // Resolve images dynamically in background using dedicated Spanish terms
     if (!details.resolvedGallery) {
         details.resolvedGallery = [...details.gallery];
     }
 
-    const searchQueries = [
-        [`${prov.name} ${prov.capital} Santa Cruz Bolivia`, `${prov.name} Santa Cruz Bolivia`],
+    const searchQueries = details.searchTerms ? [
+        [details.searchTerms[0]],
+        [details.searchTerms[1]],
+        [details.searchTerms[2]]
+    ] : [
+        [`provincia ${prov.name} Santa Cruz Bolivia`, `provincia ${prov.name}`],
         [`${prov.capital} Santa Cruz Bolivia`, `${prov.name} Bolivia`],
-        [`${prov.name} Chiquitos Bolivia`, "selva tropical Santa Cruz Bolivia"]
+        ["selva tropical Santa Cruz Bolivia"]
     ];
 
     searchQueries.forEach((queries, idx) => {
-        getCachedImage(`prov_${prov.id}_${idx}`, queries, "selva tropical Santa Cruz Bolivia", details.gallery[idx])
+        getCachedImage(`prov_${prov.id}_${idx}`, queries, "selva tropical Santa Cruz Bolivia", details.gallery[idx], true)
             .then(resolvedUrl => {
                 details.resolvedGallery[idx] = resolvedUrl;
                 
