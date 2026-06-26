@@ -651,6 +651,17 @@ function prewarmImageCache() {
     gastronomy.forEach(food => {
         getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm, food.image);
     });
+    provinces.forEach(prov => {
+        const details = provinceDetails[prov.id];
+        const searchQueries = [
+            [`${prov.name} ${prov.capital} Santa Cruz Bolivia`, `${prov.name} Santa Cruz Bolivia`],
+            [`${prov.capital} Santa Cruz Bolivia`, `${prov.name} Bolivia`],
+            [`${prov.name} Chiquitos Bolivia`, "selva tropical Santa Cruz Bolivia"]
+        ];
+        searchQueries.forEach((queries, idx) => {
+            getCachedImage(`prov_${prov.id}_${idx}`, queries, "selva tropical Santa Cruz Bolivia", details.gallery[idx]);
+        });
+    });
 }
 
 
@@ -1096,8 +1107,8 @@ function openProvinceModal(prov) {
     const details = provinceDetails[prov.id];
     
     const banner = document.getElementById('modal-banner-img');
-    // Default to the first gallery image of the province for the banner
-    banner.style.backgroundImage = `url('${details.gallery[0]}')`;
+    const initialImg = details.resolvedGallery?.[0] || details.gallery[0] || 'assets/images/tajibo_amarillo.jpg';
+    banner.style.backgroundImage = `url('${initialImg}')`;
     
     document.getElementById('modal-pretitle').textContent = `Provincia · Capital: ${prov.capital}`;
     document.getElementById('modal-title-text').textContent = prov.name;
@@ -1109,13 +1120,13 @@ function openProvinceModal(prov) {
         <h4 class="modal-gallery-title">Postales de la Región</h4>
         <div class="modal-image-grid-inspired">
             <div class="img-grid-item item-large">
-                <img src="${details.gallery[0]}" alt="${prov.name} 1">
+                <img src="${initialImg}" alt="${prov.name} 1" id="prov-img-${prov.id}-0">
             </div>
             <div class="img-grid-item">
-                <img src="${details.gallery[1]}" alt="${prov.name} 2">
+                <img src="${details.resolvedGallery?.[1] || details.gallery[1] || 'assets/images/tajibo_amarillo.jpg'}" alt="${prov.name} 2" id="prov-img-${prov.id}-1">
             </div>
             <div class="img-grid-item">
-                <img src="${details.gallery[2]}" alt="${prov.name} 3">
+                <img src="${details.resolvedGallery?.[2] || details.gallery[2] || 'assets/images/tajibo_amarillo.jpg'}" alt="${prov.name} 3" id="prov-img-${prov.id}-2">
             </div>
         </div>
     `;
@@ -1135,6 +1146,38 @@ function openProvinceModal(prov) {
     `;
     
     openModal();
+
+    // Resolve images dynamically in background using Spanish terms
+    if (!details.resolvedGallery) {
+        details.resolvedGallery = [...details.gallery];
+    }
+
+    const searchQueries = [
+        [`${prov.name} ${prov.capital} Santa Cruz Bolivia`, `${prov.name} Santa Cruz Bolivia`],
+        [`${prov.capital} Santa Cruz Bolivia`, `${prov.name} Bolivia`],
+        [`${prov.name} Chiquitos Bolivia`, "selva tropical Santa Cruz Bolivia"]
+    ];
+
+    searchQueries.forEach((queries, idx) => {
+        getCachedImage(`prov_${prov.id}_${idx}`, queries, "selva tropical Santa Cruz Bolivia", details.gallery[idx])
+            .then(resolvedUrl => {
+                details.resolvedGallery[idx] = resolvedUrl;
+                
+                // Update active image element in modal if it is still open
+                const imgEl = document.getElementById(`prov-img-${prov.id}-${idx}`);
+                if (imgEl) {
+                    imgEl.src = resolvedUrl;
+                }
+                
+                // Also update the banner if it is the first image
+                if (idx === 0) {
+                    const activeBanner = document.getElementById('modal-banner-img');
+                    if (document.getElementById('modal-title-text').textContent === prov.name) {
+                        activeBanner.style.backgroundImage = `url('${resolvedUrl}')`;
+                    }
+                }
+            });
+    });
 }
 
 
