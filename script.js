@@ -235,7 +235,7 @@ const gastronomy = [
         name: "Majadito (Batido / Seco)",
         category: "plato",
         taste: "heavy",
-        image: "assets/images/gastronomia_crucena.jpg", // our generated masterpiece showing majadito
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Majadito.jpg", // Real photo of Majadito Cruceño with egg and banana
         ingredients: ["Arroz", "Charque de res", "Plátano maduro frito", "Huevo frito", "Urucú (colorante natural)"],
         history: "El rey indiscutible de la mesa cruceña. Su origen viene de las épocas coloniales donde se 'majaba' (machacaba) la carne deshidratada con yuca o plátano. El majadito batido es meloso y húmedo, mientras que el seco es suelto e ideal para acompañar con un huevo de yema blanda y lonjas dulces de plátano frito.",
         recommendation: "Perfecto si buscas un almuerzo típico y contundente que recargue energías.",
@@ -247,7 +247,7 @@ const gastronomy = [
         name: "Keperí al Horno",
         category: "plato",
         taste: "heavy",
-        image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+        image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Keper%C3%AD.jpg", // Real photo of Keperí al Horno
         ingredients: ["Carne keperí (vacío)", "Limón criollo", "Pimienta", "Comino", "Yuca hervida"],
         history: "Corte de carne sumamente típico del oriente boliviano que se marina por horas en abundante jugo de limón, ajo y especias locales. Se hornea lentamente hasta que la carne queda extremadamente suave por dentro pero con una cubierta crujiente y dorada. Siempre se sirve acompañado de yuca cocida y arroz con queso.",
         recommendation: "La mejor opción para los amantes de la carne de res bien sazonada y tierna.",
@@ -259,7 +259,7 @@ const gastronomy = [
         name: "Locro Criollo Carretero",
         category: "plato",
         taste: "heavy",
-        image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80",
+        image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Locro_carretero_de_charque_%28Bolivia%29.jpg", // Real photo of Locro Carretero de Charque
         ingredients: ["Pollo o Gallina criolla", "Arroz", "Yuca", "Huevo hervido", "Chivé / Cebollita de verdeo"],
         history: "Un caldo de arroz espeso y sumamente reconfortante, tradicionalmente cocinado a leña en ollas de fierro. Existen dos variantes muy queridas: el locro de gallina criolla (con presa entera) y el locro carretero (hecho con charque seco). Es el plato sanador por excelencia de los cruceños tras una noche de buri.",
         recommendation: "Ideal si prefieres una sopa sustanciosa y reconfortante cocinada a fuego lento.",
@@ -272,7 +272,7 @@ const gastronomy = [
         name: "Cuñapé",
         category: "masita",
         taste: "coffee",
-        image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=600&q=80",
+        image: "https://upload.wikimedia.org/wikipedia/commons/2/27/Cu%C3%B1ap%C3%A9_en_mano.jpg", // Real photo of Cuñapé cruceño
         ingredients: ["Almidón de yuca", "Queso criollo maduro", "Huevo", "Leche"],
         history: "La masita tradicional más emblemática de Santa Cruz. Hecho a base de almidón y abundante queso criollo. Al hornearse, el queso se funde con el almidón logrando un panecillo crujiente por fuera y chicloso por dentro. La palabra proviene del idioma guaraní: 'cuña' (mujer) y 'pé' (pecho), por su peculiar forma redondeada.",
         recommendation: "Imprescindible para acompañar el café caliente de la tarde, sobre todo en días lluviosos (surazos).",
@@ -284,7 +284,7 @@ const gastronomy = [
         name: "Zonzo al Palo",
         category: "masita",
         taste: "coffee",
-        image: "https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?auto=format&fit=crop&w=600&q=80",
+        image: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Sonso_de_yuca.jpg", // Real photo of Sonso de yuca
         ingredients: ["Yuca cocida", "Queso cruceño rallado", "Mantequilla", "Cocción a la brasa"],
         history: "Consiste en un puré homogéneo de yuca hervida y una generosa porción de queso cruceño. Esta mezcla se adhiere a una brocheta o rama de madera (el palo) y se cocina directamente sobre brasas de carbón girándolo pacientemente. El queso se derrite y el puré se dora, logrando una costra ahumada exquisita.",
         recommendation: "Una opción interactiva y ahumada idónea para picar al aire libre.",
@@ -296,7 +296,7 @@ const gastronomy = [
         name: "Pan de Arroz",
         category: "masita",
         taste: "coffee",
-        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/36/Pan_de_arroz%2C_Bolivia.jpg", // Real photo of Pan de arroz cruceño
         ingredients: ["Harina de arroz", "Puré de yuca", "Queso rallado", "Manteca de cerdo", "Hoja de plátano"],
         history: "Un panecillo tradicional horneado sobre hojas de plátano fresco. La harina de arroz y la yuca le dan una textura ligera y un sabor ligeramente dulzón que contrasta de manera espectacular con la sal del queso cruceño.",
         recommendation: "Perfecto si buscas un sabor ligeramente diferente al queso puro, aromatizado por hojas tropicales.",
@@ -321,7 +321,7 @@ const gastronomy = [
         name: "Chicha Camba",
         category: "bebida",
         taste: "refreshing",
-        image: "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=600&q=80",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/df/Chicha_de_maiz.JPG", // Real photo of Chicha de maíz
         ingredients: ["Maíz blanco blando", "Agua", "Azúcar al gusto"],
         history: "A diferencia de la chicha andina, la Chicha Camba no se fermenta. Se elabora moliendo y cociendo maíz blanco seleccionado hasta lograr una consistencia sedosa. Se sirve helada y es el bálsamo preferido para calmar el sofocante calor tropical del oriente boliviano.",
         recommendation: "La mejor elección para saciar la sed con un dulzor suave y reconfortante.",
@@ -333,7 +333,7 @@ const gastronomy = [
         name: "Somó",
         category: "bebida",
         taste: "refreshing",
-        image: "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=600&q=80",
+        image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jugo_de_Somo.jpg", // Real photo of Jugo de Somó
         ingredients: ["Maíz frangollo (quebrado)", "Canela en rama", "Clavo de olor", "Harina de maíz"],
         history: "Una de las bebidas más tradicionales del oriente. Se prepara hirviendo granos de maíz frangollo con canela y clavo de olor, espesándolo luego con harina de maíz diluida. En Santa Cruz se comercializa en carritos tradicionales con campanas ruidosas, servido bien helado con los granos de maíz depositados en el fondo del vaso.",
         recommendation: "Espectacular si quieres refrescarte y a la vez disfrutar de granos masticables de maíz especiados.",
@@ -614,22 +614,42 @@ async function getDynamicImage(keywords, fallbackKeyword) {
         : hardcodedBackups.places;
 }
 
-async function getCachedImage(cacheKey, keywords, fallbackKeyword) {
-    const cached = localStorage.getItem(`img_${cacheKey}`);
-    if (cached) return cached;
+async function getCachedImage(cacheKey, keywords, fallbackKeyword, defaultImage = null) {
+    const cacheKeyData = `img_${cacheKey}`;
+    const cachedData = localStorage.getItem(cacheKeyData);
     
-    const resolvedUrl = await getDynamicImage(keywords, fallbackKeyword);
-    localStorage.setItem(`img_${cacheKey}`, resolvedUrl);
+    if (cachedData) {
+        try {
+            const parsed = JSON.parse(cachedData);
+            if (parsed.defaultImage === defaultImage) {
+                return parsed.url;
+            }
+        } catch (e) {
+            // Silently fallback if parse error
+        }
+    }
+    
+    let resolvedUrl = defaultImage;
+    // If no defaultImage or it's a loremflickr URL/placeholder, dynamically resolve it
+    if (!resolvedUrl || resolvedUrl.includes('loremflickr.com') || resolvedUrl.includes('defaultImage') || resolvedUrl.includes('unsplash.com/photo-1547592180') || resolvedUrl.includes('unsplash.com/photo-1541658016709') || resolvedUrl.includes('unsplash.com/photo-1595981267035') || resolvedUrl.includes('unsplash.com/photo-1517433367423')) {
+        resolvedUrl = await getDynamicImage(keywords, fallbackKeyword);
+    }
+    
+    localStorage.setItem(cacheKeyData, JSON.stringify({
+        url: resolvedUrl,
+        defaultImage: defaultImage
+    }));
+    
     return resolvedUrl;
 }
 
 function prewarmImageCache() {
     destinations.forEach(dest => {
         const searchTerms = [ `${dest.name} Santa Cruz Bolivia` ];
-        getCachedImage(`dest_${dest.id}`, searchTerms, "selva tropical Santa Cruz Bolivia");
+        getCachedImage(`dest_${dest.id}`, searchTerms, "selva tropical Santa Cruz Bolivia", dest.image);
     });
     gastronomy.forEach(food => {
-        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm);
+        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm, food.image);
     });
 }
 
@@ -780,7 +800,7 @@ function selectDestination(dest, markerInstance = null) {
     const searchTerms = [ `${dest.name} Santa Cruz Bolivia` ];
     const fallbackTerm = "selva tropical Santa Cruz Bolivia";
     
-    getCachedImage(`dest_${dest.id}`, searchTerms, fallbackTerm)
+    getCachedImage(`dest_${dest.id}`, searchTerms, fallbackTerm, dest.image)
         .then(resolvedUrl => {
             if (document.getElementById('dest-name').textContent === dest.name) {
                 imgEl.src = resolvedUrl;
@@ -881,7 +901,7 @@ function renderGastronomy(filter = 'all') {
         grid.appendChild(card);
 
         // Fetch dynamic image in background
-        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm)
+        getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm, food.image)
             .then(resolvedUrl => {
                 const imgEl = document.getElementById(`food-img-${food.id}`);
                 if (imgEl) {
