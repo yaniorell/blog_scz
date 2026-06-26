@@ -29,10 +29,10 @@ El proyecto implementa un sistema visual premium de **Tierra y Verde**:
     *   Ingredientes representados con iconos y explicaciones emergentes (*tooltips*).
 
 3.  **📸 Sistema Inteligente de Búsqueda de Imágenes (Español & Fallback):**
-    *   **Búsqueda Dinámica:** Resuelve las fotos en tiempo real usando palabras clave e identificadores en español para gastronomía, masitas y lugares.
-    *   **API Híbrida sin Keys:** Combina consultas automáticas a *Wikimedia Commons* (máxima precisión cultural) y *LoremFlickr*.
-    *   **Imágenes de Respaldo Inteligentes:** Si no hay coincidencia exacta para términos locales como "Zonzo" o "Majadito", carga de forma inteligente una hermosa imagen de fondo adecuada para cada sección (`"paisaje oriental boliviano"` para comida y `"selva tropical Santa Cruz Bolivia"` para destinos).
-    *   **Caché en LocalStorage & Prewarm:** Guarda las URLs encontradas en el navegador para que no haya retrasos ni llamadas repetitivas de red, calentando la caché en segundo plano al cargar la web.
+    *   **Búsqueda Dinámica por Palabras Clave:** Resuelve las fotos en tiempo real usando palabras clave específicas en español para gastronomía, masitas, lugares y provincias. Para las provincias y lugares turísticos, el motor prioriza búsquedas dinámicas exactas guiándose por palabras clave (ej. `"provincia [nombre]"` o `"plaza [nombre]"`), buscando primero en las APIs antes de usar cualquier otra referencia.
+    *   **API Híbrida sin Keys:** Combina consultas en segundo plano a *Wikimedia Commons* (máxima precisión de fotos locales) y *LoremFlickr*.
+    *   **Imágenes de Respaldo Inteligentes:** Si la búsqueda exacta por palabras clave falla, el sistema recupera la imagen de galería por defecto o recurre a un fondo temático de alta calidad (`"paisaje oriental boliviano"` para comida y `"selva tropical Santa Cruz Bolivia"` para destinos y provincias).
+    *   **Caché Avanzada (LocalStorage v3) & Prewarm:** Almacena los resultados válidos en el navegador bajo la clave `img_v3_` para evitar retardos visuales, precargando toda la galería en segundo plano al iniciar la aplicación.
 
 4.  **🏛️ Enciclopedia de las 15 Provincias:**
     *   Una grilla interactiva responsiva que presenta las 15 provincias cruceñas con sus capitales.
