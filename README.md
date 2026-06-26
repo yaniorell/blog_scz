@@ -11,6 +11,7 @@ El proyecto implementa un sistema visual premium de **Tierra y Verde**:
 *   **Verde Selva y Tajibo:** Evoca la flora tropical del departamento (las lomas de arena, el Amboró, las palmeras).
 *   **Marrón Adobe y Jalea:** Inspirado en la arquitectura jesuítica chiquitana y las tinajas de barro de Cotoca.
 *   **Acentos de Sol:** Toques dorados y anaranjados para botones interactivos y estados activos.
+*   **Textura Selvática de Fondo:** Uso elegante del asset `tropical_foliage.jpg` en el footer mediante un gradiente semi-transparente que aporta una atmósfera selvática sofisticada.
 
 ---
 
@@ -20,23 +21,30 @@ El proyecto implementa un sistema visual premium de **Tierra y Verde**:
     *   Integra un mapa completamente funcional con **24 lugares turísticos clave** clasificados en 4 rutas emblemáticas (*Urbanas, Valles y Norte, Balnearios, Chiquitania*).
     *   Aplica un filtro estético sepia en CSS para darle un aspecto de "papiro o madera tallada viejo pero moderno".
     *   Efecto de zoom suave (`flyTo`) al seleccionar destinos e información dinámica en barra lateral (detalles, coordenadas y guía de "cómo llegar").
+    *   **Búsqueda Geográfica de Fotos:** Carga imágenes dinámicas de los destinos de manera automatizada agregando la palabra clave `" Santa Cruz Bolivia"` a la consulta.
 
 2.  **🥩 Gastronomía Cruceña Interactiva & Recomendador Inteligente:**
     *   Tarjetas detalladas de platos típicos (Majadito, Keperí, Locro), masitas (Cuñapé, Zonzo, Pan de Arroz) y bebidas tradicionales (Chicha, Somó).
     *   **Quiz Recomendador:** Un widget dinámico en JavaScript que te sugiere la delicia cruceña ideal según tu antojo (dulce, masita, almuerzo contundente o refrescante).
     *   Ingredientes representados con iconos y explicaciones emergentes (*tooltips*).
 
-3.  **🏛️ Enciclopedia de las 15 Provincias:**
+3.  **📸 Sistema Inteligente de Búsqueda de Imágenes (Español & Fallback):**
+    *   **Búsqueda Dinámica:** Resuelve las fotos en tiempo real usando palabras clave e identificadores en español para gastronomía, masitas y lugares.
+    *   **API Híbrida sin Keys:** Combina consultas automáticas a *Wikimedia Commons* (máxima precisión cultural) y *LoremFlickr*.
+    *   **Imágenes de Respaldo Inteligentes:** Si no hay coincidencia exacta para términos locales como "Zonzo" o "Majadito", carga de forma inteligente una hermosa imagen de fondo adecuada para cada sección (`"paisaje oriental boliviano"` para comida y `"selva tropical Santa Cruz Bolivia"` para destinos).
+    *   **Caché en LocalStorage & Prewarm:** Guarda las URLs encontradas en el navegador para que no haya retrasos ni llamadas repetitivas de red, calentando la caché en segundo plano al cargar la web.
+
+4.  **🏛️ Enciclopedia de las 15 Provincias:**
     *   Una grilla interactiva responsiva que presenta las 15 provincias cruceñas con sus capitales.
     *   Al hacer clic, despliega un modal informativo limpio que incluye una reseña histórica, cultural y una galería de imágenes alineada al diseño.
 
-4.  **🗣️ Diccionario de Jergas Cruceñas (Flashcards 3D):**
+5.  **🗣️ Diccionario de Jergas Cruceñas (Flashcards 3D):**
     *   Tarjetas didácticas con efecto de volteo tridimensional (3D Flip) en CSS para aprender expresiones locales como *"Pariente"*, *"Buri"*, *"¡Jopo de toro!"*, *"¡Aneró!"*, etc.
 
-5.  **📖 Mitos y Leyendas (Acordeón Animado):**
+6.  **📖 Mitos y Leyendas (Acordeón Animado):**
     *   Un rincón de lectura interactivo con acordeones fluidos hechos en CSS Grid que revelan las historias tradicionales del *Duende*, el *Mojón con Cara* y la *Viudita*.
 
-6.  **🔍 Buscador Global Integrado:**
+7.  **🔍 Buscador Global Integrado:**
     *   Filtra dinámicamente y en tiempo real los destinos y marcadores en el mapa a medida que escribes en la barra de búsqueda.
 
 ---
