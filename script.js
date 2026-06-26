@@ -247,8 +247,6 @@ const destinations = [
         howTo: "Destino remoto al noreste de Santa Cruz, frontera con Brasil. Se llega principalmente mediante avioneta charter desde Santa Cruz o por vía terrestre/fluvial en expediciones de varios días.",
         searchTerms: ["parque nacional noel kempff", "catarata arco iris noel kempff", "noel kempff mercado bolivia"]
     }
-];n Brasil. Se llega principalmente mediante avioneta charter desde Santa Cruz o por vía terrestre/fluvial en expediciones de varios días."
-    }
 ];
 
 const gastronomy = [
@@ -702,27 +700,9 @@ async function getCachedImage(cacheKey, keywords, fallbackKeyword, defaultImage 
 }
 
 function prewarmImageCache() {
-    destinations.forEach(dest => {
-        const searchTerms = dest.searchTerms || [ `${dest.name} Santa Cruz Bolivia` ];
-        getCachedImage(`dest_${dest.id}`, searchTerms, "selva tropical Santa Cruz Bolivia", dest.image, true);
-    });
+    // Only prewarm gastronomy at startup since it resolves instantly using curated images
     gastronomy.forEach(food => {
         getCachedImage(`food_${food.id}`, food.searchTerms, food.fallbackTerm, food.image, false);
-    });
-    provinces.forEach(prov => {
-        const details = provinceDetails[prov.id];
-        const searchQueries = details.searchTerms ? [
-            [details.searchTerms[0]],
-            [details.searchTerms[1]],
-            [details.searchTerms[2]]
-        ] : [
-            [`provincia ${prov.name} Santa Cruz Bolivia`, `provincia ${prov.name}`],
-            [`${prov.capital} Santa Cruz Bolivia`, `${prov.name} Bolivia`],
-            ["selva tropical Santa Cruz Bolivia"]
-        ];
-        searchQueries.forEach((queries, idx) => {
-            getCachedImage(`prov_${prov.id}_${idx}`, queries, "selva tropical Santa Cruz Bolivia", details.gallery[idx], true);
-        });
     });
 }
 
